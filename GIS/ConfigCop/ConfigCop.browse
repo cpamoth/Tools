@@ -1,0 +1,8 @@
+http://model2eqpluslb.geninfo.com/GISServiceResolver.rem|http://model2eqpluslb.geninfo.com
+http://model2imagemgr:1201/DocumentManager/http|http://model2imagemgr:1201/DocumentManager
+http://Model2ServiceDocumentExplorerServices.geninfo.com|http://model2servicedocumentexplorerservices.geninfo.com/ServiceDocumentExplorer.svc
+http://Model2ServiceDocumentExplorerServices|http://model2servicedocumentexplorerservices/ServiceDocumentExplorer.svc
+http://Model2holmes1/equestasp/eQPlusIFace/eQuestPlusBGSummary.asp?casenum={0}&amp;amp;CompanyParm=GIS-US|http://Model2holmes1/equestasp/eQPlusIFace/eQuestPlusBGSummary.asp
+http://model2viewdocuments|http://model2viewdocuments/Home
+http://mvr.softechinternational.com:8080/cgi-win/netmvrclienttest.exe|http://mvr.softechinternational.com:8080
+http://model2holmes1/equestasp/eQPlusIFace/eQuestPlusBGSummary.asp?casenum=|http://model2holmes1/equestasp/
