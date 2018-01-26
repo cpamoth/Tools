@@ -1,0 +1,17 @@
+To remove a DLL from GAC eg : To remove GiSNameAddressDataSetDataSet.dll from E:\eQuestPlus\bin on  QA2EQApp1/2/3/4 :
+
+Do this : 
+cd E:\eQuestPlus\bin
+
+Query the GAC to make sure its removed by [it should say "Number of Items 0"]  :
+C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\gacutil /l GiSNameAddressDataSet
+
+Removed "GiSInstantTraceReport.dll" from GAC by : 
+C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\gacutil /u GiSNameAddressDataSet
+
+To make sure this was removed do the GAC querry again.. it should say "Number of Items 0".
+
+Restart the Async and Case monitor services using script under  : 
+E:\Tools\Start_GISQA2_async_processor_and_monitor_Services.bat
+
+Done.

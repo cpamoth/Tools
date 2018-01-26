@@ -1,0 +1,157 @@
+﻿======================================
+Automation Robot Agent - Release Notes
+======================================
+1.3.37.0
+-------
+1. adding retry for Rally failed connections
+
+1.3.36.0
+-------
+1. Fix for previous deployment
+
+1.3.35.0
+-------
+1. Added ability to for subject prefix to email reports
+
+1.3.34.0
+-------
+1. Resolved issues with determining Pass/ Fail of test cases
+2. Introduced tag wise grouping in test results email
+
+1.3.33.0
+-------
+1. Added capture screen right before jobs are killed beyond the specified timeout
+
+1.3.31.0
+-------
+1. Added ability to kill jobs running beyond a specified timeout in the settings
+
+1.3.30.0
+-------
+1. Added status comment to report
+
+1.3.29.0
+-------
+1. Added TestCaseDescription to report
+
+1.3.28.0
+-------
+1. Final fix for result email with Pending runs
+
+1.3.27.0
+-------
+1. Supressing unnecessary notification email
+
+1.3.26.0
+-------
+1. Fix for pending job issue and additional logs
+
+1.3.25.0
+-------
+1. Fixing issue with send report
+
+1.3.24.0
+-------
+1. Fixing issue with send report
+
+1.3.23.0
+-------
+1. Do not send report when pending runs are there (ExecutionSuccess with no test result) and adding more logs
+
+1.3.22.0
+-------
+1. Fixing the reporting issue
+
+1.3.21.0
+-------
+1. Fixing the fix
+
+1.3.20.0
+-------
+1. Ability to force quit job run after 30 minutes. Captures screen shot of how the job is stuck
+2. Fixing reporting issue
+
+1.3.19.0
+-------
+1. Ability to auto reset jobs that are stuck for more than a long time
+
+
+1.3.18.0
+-------
+1. Logging for Rally workspace retrival error
+
+
+1.3.18.0
+-------
+1. Fixed reporting issue when the result includes skipped rows
+
+
+1.3.17.0
+-------
+1. Modified Suite and Schedule entities to change scheduling logic to schedule suites instead of job schedules
+
+1.3.15.0
+-------
+1. Restarting on Transaction not connected, or was disconnected
+
+
+1.3.15.0
+-------
+1. Distribution list precedence
+
+
+1.3.14.0
+-------
+1. Fixes
+2. Batch naming and distribution list implementation
+
+
+1.3.13.0
+-------
+1. Fixes for result status
+2. Skip reason in report
+
+1.3.12.0
+-------
+1. Fixes for result status
+2. Skip reason in report
+
+1.3.11.0
+-------
+1. Fixes
+
+1.3.10.0
+-------
+1. Fixes
+
+1.3.9.0
+-------
+1. Added reporting feature
+2. Added 30 minute timeout for any job to run
+
+1.3.8.0
+-------
+1. Converted add jobs to schedule stored procedure to QueueJobSchedules in code
+2. Added methods to cancel jobs and get count before cancel
+3. Modified get batch status
+4. Added skip functionality
+5. Added retry functionality
+
+1.3.7.0
+-------
+1. Implemented Agent modes Regular and Assigned only
+	a. When set in Regular mode, Agent will pick any job that it is capable of executing and assigned to agent "UNASSIGNED"
+	b. When set in AssignedOnly mode, Agent will pick any job that it is capable of executing and assiged to that agent.
+
+1.3.4.0
+-------
+1. Code version and Release notes path displayed in Window title bar. Code version removed from individual logs.
+2.
+3.
+4.
+
+1.3.3.0
+-------
+1. 
+2. 
+3.

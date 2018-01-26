@@ -1,0 +1,32 @@
+Instructions on how to build a project:
+
+Manual Process:
+http://sourcecontrol/svn/Gis/Development/Interfaces/PostingListenerTestWS/Project%20Code
+
+Get to the path of the project. Ex.(C:\SVN\Gis\Development\Core Applications\PrintLetterDriver\Project Code) 
+
+Do a dir. Ex.(C:\SVN\Gis\Development\Core Applications\PrintLetterDriver\Project Code>dir)
+
+Locate the proj file and open it in notepad++ and see what version you will be building for the project. Ex.(ToolsVersion="4.0)
+
+Type in command msbuild + (project file name) and press enter. Ex.(C:\SVN\Gis\Development\Core Applications\PrintLetterDriver\Project Code>msbuild PrintLetterDriver.csproj)
+
+The project will build now.
+
+If the build succeeds, get the latest revision of the project and deploy the project. 
+
+If the build fails, try and find out what parts of the project that you are missing and get the files on my box.
+
+Run the build again once you have gotten the files you were missing.
+
+Continue these steps above until the build succeeds. 
+
+Jimmy's build script:
+
+
+
+
+
+
+
+

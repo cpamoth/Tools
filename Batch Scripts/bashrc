@@ -1,0 +1,10 @@
+echo "Welcome `git config user.name` . Your GIT Home folder is $HOME"
+echo
+## Set initial settings :
+echo "Enabling SHOWDIRTYSTATE and SHOWUNTRACKEDFILES for the branch prompt"
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+echo  "Enabled. NOTE : (master*)]$  = A tracked file was modified , (master+) = A tracked file was modified and staged (with git add) "
+echo " , (master%) = You have untracked files in your tree"
+  
+alias commands='$HOME/GitCommands.sh'
